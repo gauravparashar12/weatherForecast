@@ -1,0 +1,28 @@
+<div class="panel panel-default" ng-repeat="search in searchData">
+                            <div class="panel-heading">
+                                <h4>{{search.city.name}}</h4>
+                            </div>
+                              
+<div class="row">
+<div class="col-md-3"></div>
+<div class="col-md-3"><div class="panel panel-default weather-panel">
+<div class="panel-heading">Current weather<br><small id="currentTime" class="supersmall"></small></div>
+<div class="row">
+<div class="col-sm-6 wi" id="currentIcon"></div>
+<div class="col-sm-6" style="padding: 0px;">
+<h1 class="temp"><span id="currentTemperature"></span><span>°</span></h1>
+<small id="currentSummary"></small>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12"><span></span><br>
+<span>wind: </span><span id="currentWind"></span><span> mph(s)</span><br>
+<span id="hourlySummary"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-3"></div>
+<div class="col-md-3"></div>
+</div></div>
+
