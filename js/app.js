@@ -4,7 +4,7 @@
 var testApp = angular.module('testApp', ['ngRoute']);
 
 // Data Provider URL
-testApp.constant('APP_URI', 'http://api.openweathermap.org/data/2.5/forecast/daily?cnt=14&APPID=9c9472d6ba86cadceccc8bdf5d75b5f0');
+testApp.constant('APP_URI', 'http://api.openweathermap.org/data/2.5/forecast/daily?cnt=14&APPID=9c9472d6ba86cadceccc8bdf5d75b5f0&units=metric');
 
 // Routing Configuration
 testApp.config(['$routeProvider', function($routeProvider) {
